@@ -29,12 +29,12 @@
         <dependency>
             <groupId>org.elasticsearch</groupId>
             <artifactId>elasticsearch</artifactId>
-            <version>6.4.3</version>
+            <version>6.8.13</version>
         </dependency>
         <dependency>
             <groupId>org.elasticsearch.client</groupId>
             <artifactId>transport</artifactId>
-            <version>6.4.3</version>
+            <version>6.8.13</version>
         </dependency>
         <dependency>
             <groupId>org.elasticsearch.client</groupId>
@@ -44,7 +44,7 @@
         <dependency>
             <groupId>org.elasticsearch.client</groupId>
             <artifactId>elasticsearch-rest-high-level-client</artifactId>
-            <version>6.4.3</version>
+            <version>6.8.13</version>
         </dependency>
 
         <dependency>
@@ -87,7 +87,7 @@
                             <tasks>
                                 <copy todir="${project.basedir}/../launcher/target/classes/es6" overwrite="true">
                                     <fileset dir="${project.basedir}/target/classes/es6" erroronmissingdir="true">
-                                        <include name="*.yml" />
+                                        <include name="*.yml"/>
                                     </fileset>
                                 </copy>
                             </tasks>
